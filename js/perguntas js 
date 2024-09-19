@@ -1,6 +1,6 @@
  export const perguntas = [
     {
-        enunciado: "Pergunta 1",
+        enunciado: "Você sabe quantos ossos o corpo hum",
         alternativas: [
             {
                 texto: "Alternativa 1 da pergunta 1",
