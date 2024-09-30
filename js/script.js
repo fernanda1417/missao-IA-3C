@@ -49,18 +49,17 @@ function mostraAlternativas(){
 function respostaSelecionada(opcaoSelecionada){
     const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
     historiaFinal += afirmacoes + " ";
-     if(opcaoSelecionada.proximo !== undefined){
-      atual = opcaoSelecionada.proxima;
-     }else {
-                mostraResultado();
-                return;
-     }
-
+   if(opcaoSelecionada.proxima !== undefined) {
+       atual = opcaoSelecionada.proxima;
+   }else {
+       mostraResultado();
+       return;
+   }
     mostraPergunta();
 }
 
 function mostraResultado(){
-    caixaPerguntas.textContent = `Em 2049, ${nome}`
+    caixaPerguntas.textContent = `Em 2049, ${nome}`;
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
     caixaResultado.classList.add("mostrar"); 
