@@ -74,7 +74,6 @@
                 texto: "Alternativa 2 da pergunta 2",
                 afirmacao: [
                     "afirmacao 1",
-                    "afirmacao 2"
                     ]
             }
         ]
@@ -83,17 +82,15 @@
         enunciado: "Gostaria de aprender mais sobre?",
         alternativas: [
             {
-                texto:"Alternativa 1 da pergunta 2",
+                texto:"Sim",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                     "afirmacao 1",
                     ]
             },
             {
-                texto: "Alternativa 2 da pergunta 2",
+                texto: "Não",
                 afirmacao: [
                     "afirmacao 1",
-                    "afirmacao 2"
                     ]
             }
         ]
