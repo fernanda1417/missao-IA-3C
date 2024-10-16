@@ -5,14 +5,14 @@
             {
                 texto: "Sim",
                 afirmacao: [
-                    "a",
+                    "Você é esperto",
                     ]
             },
             {
                 texto: "Não",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "você poderia aprender mais",
+                
                     ]
             }           
             
@@ -23,17 +23,15 @@
         enunciado: "Gostaria de aprender mais sobre?",
         alternativas: [
             {
-                texto:"Alternativa 1 da pergunta 2",
+                texto:"Sim",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "Você gosta de aprender!",
                     ]
             },
             {
-                texto: "Alternativa 2 da pergunta 2",
+                texto: "Não",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "Vocẽ tem a oportunidade, tem certeza?",
                     ]
             }
         ],
@@ -43,17 +41,15 @@
         enunciado: "Quer aprender sobre o sistema digestivo?",
         alternativas: [
             {
-                texto:"Alternativa 1 da pergunta 3",
+                texto:"Sim",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "Você é determinado, vamos lá",
                     ]
             },
             {
-                texto:"Alternativa 2 da pergunta 3",
+                texto:"Não",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "Vocẽ tem a oportunidade, tem certeza?",
                     ]
             }
             
@@ -61,19 +57,18 @@
     },
     proxima: 3,
     {
-        enunciado: "Gostaria de aprender mais sobre?",
+        enunciado: "Vocẽ sabe qual caminho a commida percorre?",
         alternativas: [
             {
-                texto:"Alternativa 1 da pergunta 2",
+                texto:"Sim",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "Vocẽ é esperto",
                     ]
             },
             {
-                texto: "Alternativa 2 da pergunta 2",
+                texto: "Não",
                 afirmacao: [
-                    "afirmacao 1",
+                    "Vocẽ precisa saber: boca; faringe; esôfago; estomago; intestino delgado; intestino grosso e anus.",
                     ]
             }
         ]
@@ -84,13 +79,13 @@
             {
                 texto:"Sim",
                 afirmacao: [
-                     "afirmacao 1",
+                     "Siga o perfil do tiktok do perfil do professor wesly e aprenda mais.",
                     ]
             },
             {
                 texto: "Não",
                 afirmacao: [
-                    "afirmacao 1",
+                    "ok ",
                     ]
             }
         ]
